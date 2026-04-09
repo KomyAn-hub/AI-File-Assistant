@@ -1,0 +1,9 @@
+name = "ai-file-assistant-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (set via CLI, never committed):
+# wrangler secret put ANTHROPIC_API_KEY
+
+[env.production]
+name = "ai-file-assistant-proxy"
